@@ -3,6 +3,12 @@ My version of twister game. Written using C++ and Qt.
 
 To play you need a board with colorful fields.
 
-![image](https://user-images.githubusercontent.com/105115971/170059775-6d691042-64f1-461f-91c0-ad9aaf3fc665.png)
+At the beginning you should add players. 
 
-![image](https://user-images.githubusercontent.com/105115971/170060369-3087a834-c0eb-43f4-b9fc-6856a1a4309d.png)
+![image](https://user-images.githubusercontent.com/105115971/170061532-82b79f2a-86e0-4f8e-bf90-c31ad84a5512.png)
+
+Then with pushing button play, program give you orders to each players.
+
+Program remember which places are used and released them when player failed or move limb. 
+
+![image](https://user-images.githubusercontent.com/105115971/170061105-ceb40b6b-1c26-4727-b5ce-97c8f046b341.png)
