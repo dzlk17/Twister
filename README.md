@@ -1,7 +1,7 @@
 # Twister
 My version of twister game. Written using C++ and Qt.
 
-To play you need a board with colorful fields.
+To play you need a board with numbered (1 -6) colorful fields. 
 
 At the beginning you should add players. 
 
