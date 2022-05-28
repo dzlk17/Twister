@@ -31,6 +31,7 @@ void MainWindow::RemovePlayer()
     {
         if (players[i].GetName() == name)
         {
+            players[i].FreePlayer();
             players.erase(players.begin()+i);
             return;
         }
