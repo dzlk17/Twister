@@ -27,3 +27,11 @@ QString Player::random_limb(bool *pl)
     }
     return "right hand";
 }
+
+void Player::FreePlayer()
+{
+    *leftLeg = true;
+    *rightLeg = true;
+    *leftHand = true;
+    *rightHand = true;
+}
