@@ -37,6 +37,11 @@ public:
      * @return command for player.
      */
     QString random_limb(bool *pl);
+    
+     /**
+     * @brief Free Free all places used by player.
+     */
+    void FreePlayer();
 
 private:
     QString name;
